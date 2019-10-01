@@ -1,3 +1,101 @@
+html {
+  width: 50%;
+}
 body {
   background-color: #c9b5ab;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  color: #8f2440;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #222;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 1.125rem;
+}
+
+p, ol, dl {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  list-style-type: lower-greek;
+}
+
+.germination {
+  font-weight: bold;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote strong {
+  font-weight: normal;
+}
+
+blockquote footer {
+  font-size: 0.8rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dt:first-child {
+  font-weight: normal;
+  font-style: italic;
+  float: left;
+}
+
+dd:first-child {
+  float: left;
+}
+
+[value="100"] {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: circle;
+  font-size: 0.8rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #222;
 }
