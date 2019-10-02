@@ -18,7 +18,7 @@ a {
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 nav ol {
@@ -37,12 +37,12 @@ figcaption {
   text-align: center;
   font-family: "PT Serif", serif;
   font-style: italic;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 p, ol, dl {
   font-family: "PT Serif", serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   list-style-type: lower-greek;
 }
 
