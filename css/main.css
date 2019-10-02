@@ -1,16 +1,16 @@
 html {
-  width: 50%;
+  line-height: 1.5;
 }
 
 body {
   background-color: #c9b5ab;
-  line-height: 1.5;
 }
 
 h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 nav ol {
@@ -60,7 +60,7 @@ blockquote strong {
 }
 
 blockquote footer {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 dt {
@@ -75,6 +75,18 @@ dt:first-child {
 
 dd:first-child {
   float: left;
+  position: relative;
+}
+
+dd::before {
+  content: " ";
+  white-space: pre;
+}
+
+data[value="100"]::after {
+  content: " ";
+  display: block;
+  white-space: pre;
 }
 
 [value="100"] {
@@ -83,15 +95,15 @@ dd:first-child {
 
 ul {
   list-style-type: circle;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 footer p {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 footer a {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-family: "PT Serif", serif;
   font-weight: normal;
 }
