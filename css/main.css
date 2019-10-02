@@ -1,6 +1,7 @@
 html {
   width: 50%;
 }
+
 body {
   background-color: #c9b5ab;
   line-height: 1.5;
@@ -12,7 +13,7 @@ h1, h2 {
   font-weight: bold;
 }
 
-nav a {
+a {
   color: #8f2440;
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
@@ -24,13 +25,12 @@ nav ol {
   list-style-type: none;
 }
 
-nav a:hover {
-  text-decoration: underline;
-  color: #222;
-}
-
 figure {
   text-align: center;
+}
+
+img {
+  width: 100%;
 }
 
 figcaption {
@@ -91,11 +91,12 @@ footer p {
 }
 
 footer a {
-  text-decoration: none;
-  color: #8f2440;
+  font-size: 0.8rem;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
 }
 
-footer a:hover {
+a:hover {
   text-decoration: underline;
   color: #222;
 }
